@@ -19,7 +19,7 @@ from cython.parallel import prange
 
 import six
 
-import utils
+from . import utils
 from .exceptions import MissingT, DecodeError
 
 cdef int str_to_int(char* data, int len) nogil:

@@ -40,7 +40,7 @@ except ImportError:
 
 import datrie
 
-import utils
+from . import utils
 from .utils import ID, nbit, nflip, nset, PollableQueue
 from .exceptions import BucketFull, BucketNotFull, NoTokenError, FailToStop, TransactionIdUnknown
 from .exceptions import NotFound
